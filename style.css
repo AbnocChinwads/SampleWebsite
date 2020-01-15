@@ -1,13 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Roboto&display=swap');
+
+/*--------------------------------------------------------- Body*/
+
+body {
+    background-color: blueviolet;
+    size: 100%vh;
+}
+
 /*--------------------------------------------------------- Header*/
+
+header {
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2em;
+}
 
 .heading-style-uppercase {
     text-transform: uppercase;
 }
 
-/*--------------------------------------------------------- Body*/
+.h1-text {
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-style: italic;
+    font-size: 80px;
+}
 
-body {
-    size: 100%vh;
+.h3-text {
+    font-size: 20px;
+}
+
+/*--------------------------------------------------------- Section*/
+
+.section-heading {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-paragraph {
+    text-align: center;
 }
 
 /*--------------------------------------------------------- Footer*/
@@ -20,4 +50,25 @@ body {
   background-color: red;
   color: white;
   text-align: center;
+}
+
+/*--------------------------------------------------------- Media Queries*/
+
+@media (max-width: 768px) {
+    .h3-text {
+    font-size: 14px;
+    }
+    .section-heading,
+    .section-paragraph {
+        text-align: left;
+    }
+}
+
+@media (max-width: 700px) {
+    .h1-text {
+    font-size: 50px;
+    }
+    .h3-text {
+    font-size: 10px;
+    }
 }
