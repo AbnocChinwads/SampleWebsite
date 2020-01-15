@@ -13,10 +13,16 @@ header {
     background-color: #fafafa;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.2em;
+    padding-left: 10px;
 }
 
 .heading-style-uppercase {
     text-transform: uppercase;
+}
+
+.img-heading-resize {
+    max-height: 70px;
+    max-width: 70px;
 }
 
 .h1-text {
@@ -29,6 +35,11 @@ header {
     font-size: 20px;
 }
 
+.img-resize {
+    max-height: 50px; 
+    max-width: 50px;
+}
+
 /*--------------------------------------------------------- Section*/
 
 .section-heading {
@@ -38,6 +49,10 @@ header {
 
 .section-paragraph {
     text-align: center;
+}
+
+.splash-img {
+    max-width: 100vw;
 }
 
 /*--------------------------------------------------------- Footer*/
