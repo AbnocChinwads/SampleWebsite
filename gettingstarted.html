@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
         <title>Document</title>
     </head>
-    <body>
+    <body id="page-container">
         <header>
             <div class="row no-gutters">
                 <div class="col-md">
@@ -22,19 +22,20 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+                                    <a class="nav-link" href="index.html">Home <i class="fa fa-home" 
+                                    aria-hidden="true"></i></a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Getting Started <i class="fa fa-unlock" 
-                                    aria-hidden="true"></i></a>
+                                    <a class="nav-link" href="#">Getting Started <i 
+                                    class="fa fa-unlock" aria-hidden="true"></i></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="charactersheet.html">Character Sheet <i class="fa fa-tasks" 
-                                    aria-hidden="true"></i></a>
+                                    <a class="nav-link" href="charactercreation.html">Character Creation 
+                                    <i class="fa fa-tasks" aria-hidden="true"></i></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Combat <i class="fa fa-crosshairs" 
-                                    aria-hidden="true"></i>
+                                    <a class="nav-link" href="combat.html">Combat <i class="fa fa-crosshairs" 
+                                    aria-hidden="true"></i></a>
                                 </li>
                             </ul>
                             <form class="form-inline my-2 my-lg-0">
@@ -54,14 +55,15 @@
                 </div>
             </div>
         </header>
-        <section>
+        <section class="container-fluid">
             <div class="row no-gutters">
                 <div class="col">
                     <h2 class="heading section-heading">The roll of the dice!</h2>
                     <p class="section-paragraph">
                     The D4 is a tricksy little thing to read, but you'll be able to steer clear of it as a beginner
                     quite easily. It is typically used for dagger damage, and low level monk unarmed strike damage
-                    (<a href="#classes">classes<a/> and <a href="combat.html#attacks">attacks</a> are introduced later).
+                    (<a href="charactercreation.html#classes">classes</a> and <a href="combat.html#attacking">attacks</a>
+                     are introduced later).
                     </p>
                     <p class="section-paragraph">
                     The D6 is the dice you're most used to if you've played any sort of board game. From Mouse Trap 
@@ -85,7 +87,7 @@
             </div>
         </section>
         <footer id="footer">
-            <div class="row">
+            <div class="row no-gutters">
                 <div class="col">
                     This is where the social media links will go
                     <br>Copyright information for images too
@@ -93,10 +95,13 @@
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+        crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+        crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+        crossorigin="anonymous"></script>
     </body>
 </html>
