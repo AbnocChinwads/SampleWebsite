@@ -3,19 +3,18 @@
 /*--------------------------------------------------------- Body*/
 
 body {
-    background-color: blueviolet;
-    size: 100%vh;
-}
-
-#page-container {
     position: relative;
     min-height: 100vh;
+    background-color: rgba(112, 22, 112, 0.815);
+    color: #fff;
+    padding-bottom: 2rem; /* Footer position */
 }
 
 /*--------------------------------------------------------- Header*/
 
 header {
     background-color: #fafafa;
+    color: #000;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.2em;
 }
@@ -50,13 +49,23 @@ header {
 
 .section-heading {
     padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     text-align: center;
 }
 
 .section-paragraph {
     padding: 0px 10px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+
+.position-left {
+    text-align: left;
+}
+
+.position-right {
+    text-align: right;
 }
 
 .splash-img {
@@ -73,6 +82,11 @@ header {
     background-color: red;
     color: white;
     text-align: center;
+}
+
+.anchor-styling {
+    padding: 0.5em;
+    color: #fafafaa6;
 }
 
 /*--------------------------------------------------------- Media Queries*/
